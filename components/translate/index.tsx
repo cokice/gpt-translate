@@ -77,7 +77,7 @@ const Translate = (): JSX.Element => {
     await chatHandler({
       api: api.api,
       key: api.key,
-      message: `Please translate this message to ${defaultLanguage}:\n${content}`
+      message: `Please translate this message to ${defaultLanguage}:\n${content},just translate,dont give anything else`
     }).then((result) => {
       // 如果 reasult 存在 .data.choices[0] 就是成功
       if (Boolean(result.data.choices[0])) {
