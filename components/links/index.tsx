@@ -45,12 +45,6 @@ const Links = (): JSX.Element => {
   }, [])
   return (
         <>
-            <Link href={'https://github.com/inannan423/gpt-translate'} target={'_blank'}>
-                <Badge variant="secondary" className={'font-mono cursor-pointer flex'}>
-                    <Github size={11} className={'mr-1'}/>
-                    GitHub
-                </Badge>
-            </Link>
             <Sheet>
                 <SheetTrigger asChild>
                     <Badge

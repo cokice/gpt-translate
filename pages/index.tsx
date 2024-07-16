@@ -9,7 +9,7 @@ export default function Home (): JSX.Element {
             className={'flex min-h-screen flex-col items-center justify-center p-3 lg:p-24'}
         >
             <Head>
-                <title>GPTTranslate</title>
+                <title>Translate</title>
                 <meta name="description" content="Translate text with GPT-3" />
                 <link rel="icon" href="/languages.svg" />
             </Head>
